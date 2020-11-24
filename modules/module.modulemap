@@ -1,0 +1,7 @@
+framework module frmwk_bitcodetest_20201124 {
+  umbrella header "frmwk_bitcodetest_20201124.h"
+
+  export *
+  module * { export * }
+}
+
