@@ -11,6 +11,7 @@
 
     <!-- We're building a framework. -->
     <target>framework</target>
+    <enableBitcode>true</enableBitcode>
 
     <!-- The framework image name (executable name) is defined in robovm.properties. -->
     <imageName>${framework.executable}</imageName>
