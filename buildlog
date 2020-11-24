@@ -1,0 +1,70 @@
+[INFO] 14:02:34.580 Project created in /Users/ecsec/IdeaProjects/frmwk_bitcodetest_20201124
+[INFO] 14:02:39.357 RoboVM plugin initialized
+[INFO] 14:06:15.008 Creating package in /Users/ecsec/bitcodeTest_20201124_mvn ...
+[INFO] 14:06:15.012 Loading default RoboVM config properties file: /Users/ecsec/IdeaProjects/frmwk_bitcodetest_20201124/robovm.properties
+[INFO] 14:06:15.012 Loading default RoboVM config file: /Users/ecsec/IdeaProjects/frmwk_bitcodetest_20201124/robovm.xml
+[INFO] 14:06:15.026 classpath entry: /Users/ecsec/IdeaProjects/frmwk_bitcodetest_20201124/target/classes
+[INFO] 14:06:15.027 Using SDK boot classpath
+[INFO] 14:06:16.138 Building arm64 slice
+[INFO] 14:06:16.879 Compiling classes using 4 threads
+[INFO] 14:06:16.880 Compiling com.mycompany.myframework.Calculator (ios arm64 release)
+[INFO] 14:06:17.433 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo (ios arm64 release)
+[INFO] 14:06:18.117 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo$$Lambda$1 (ios arm64 release)
+[INFO] 14:06:20.534 Compiled 3 classes in 3,66 seconds
+[INFO] 14:06:21.316 Linking 1045 classes (ios arm64 release)
+[INFO] 14:06:21.391 7888 methods out of 11089 included in the executable
+[INFO] 14:06:21.982 Building framework binary /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/arm64/frmwk_bitcodetest_20201124
+[INFO] 14:06:21.987 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -o /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/arm64/frmwk_bitcodetest_20201124 -arch arm64 -Wl,-filelist,/var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/arm64/objects0 -w -stdlib=libc++ -miphoneos-version-min=8.0 -fembed-bitcode -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk -dynamiclib -single_module -compatibility_version 1 -current_version 1 -install_name @rpath/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124 -L /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/arm64 -ObjC -exported_symbols_list /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/arm64/exported_symbols -Wl,-no_implicit_dylibs -Wl,-dead_strip -fPIC -lrobovm-frameworksupport -lrobovm-bc -force_load /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/arm64/librobovm-rt.a -lrobovm-core -lgc -lpthread -ldl -lm -lz -liconv -lsqlite3 -framework Foundation -framework MobileCoreServices
+[INFO] 14:06:24.975 Linked 1045 classes in 4,44 seconds
+[INFO] 14:06:24.983 Building thumbv7 slice
+[INFO] 14:06:25.580 Compiling classes using 4 threads
+[INFO] 14:06:25.581 Compiling com.mycompany.myframework.Calculator (ios thumbv7 release)
+[INFO] 14:06:25.874 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo (ios thumbv7 release)
+[INFO] 14:06:26.226 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo$$Lambda$1 (ios thumbv7 release)
+[INFO] 14:06:28.320 Compiled 3 classes in 2,74 seconds
+[INFO] 14:06:28.863 Linking 1045 classes (ios thumbv7 release)
+[INFO] 14:06:28.919 7888 methods out of 11089 included in the executable
+[INFO] 14:06:29.569 Building framework binary /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/thumbv7/frmwk_bitcodetest_20201124
+[INFO] 14:06:29.580 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -o /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/thumbv7/frmwk_bitcodetest_20201124 -arch armv7 -Wl,-filelist,/var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/thumbv7/objects0 -w -stdlib=libc++ -miphoneos-version-min=8.0 -fembed-bitcode -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk -dynamiclib -single_module -compatibility_version 1 -current_version 1 -install_name @rpath/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124 -L /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/thumbv7 -ObjC -exported_symbols_list /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/thumbv7/exported_symbols -Wl,-no_implicit_dylibs -Wl,-dead_strip -fPIC -lrobovm-frameworksupport -lrobovm-bc -force_load /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/thumbv7/librobovm-rt.a -lrobovm-core -lgc -lpthread -ldl -lm -lz -liconv -lsqlite3 -framework Foundation -framework MobileCoreServices
+[INFO] 14:06:32.227 Linked 1045 classes in 3,91 seconds
+[INFO] 14:06:32.236 Building x86 slice
+[WARNING] 14:06:32.266 Tree shaking is not supported when building for OS X/iOS x86 32-bit due to a bug in Xcode's linker. No tree shaking will be performed. Run in 64-bit mode instead to use tree shaking.
+[INFO] 14:06:32.756 Compiling classes using 4 threads
+[INFO] 14:06:32.757 Compiling com.mycompany.myframework.Calculator (ios x86 release)
+[INFO] 14:06:33.154 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo (ios x86 release)
+[INFO] 14:06:34.135 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo$$Lambda$1 (ios x86 release)
+[INFO] 14:06:38.912 Compiled 3 classes in 6,16 seconds
+[INFO] 14:06:40.421 Linking 2230 classes (ios x86 release)
+[INFO] 14:06:40.555 26693 methods out of 26693 included in the executable
+[INFO] 14:06:41.899 Building framework binary /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86/frmwk_bitcodetest_20201124
+[INFO] 14:06:41.910 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -o /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86/frmwk_bitcodetest_20201124 -arch i386 -Wl,-filelist,/var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86/objects0 -w -stdlib=libc++ -mios-simulator-version-min=8.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk -dynamiclib -single_module -compatibility_version 1 -current_version 1 -read_only_relocs suppress -install_name @rpath/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124 -L /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/x86 -ObjC -exported_symbols_list /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86/exported_symbols -Wl,-no_implicit_dylibs -Wl,-dead_strip -fPIC -lrobovm-frameworksupport -lrobovm-bc -force_load /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/x86/librobovm-rt.a -lrobovm-core -lgc -lpthread -ldl -lm -lz -liconv -lsqlite3 -framework Foundation -framework MobileCoreServices
+[INFO] 14:06:45.807 Linked 2230 classes in 6,90 seconds
+[INFO] 14:06:45.823 Building x86_64 slice
+[INFO] 14:06:46.461 Compiling classes using 4 threads
+[INFO] 14:06:46.463 Compiling com.mycompany.myframework.Calculator (ios x86_64 release)
+[INFO] 14:06:46.719 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo (ios x86_64 release)
+[INFO] 14:06:47.109 Compiling com.mycompany.myframework.frmwk_bitcodetest_20201124Demo$$Lambda$1 (ios x86_64 release)
+[INFO] 14:06:48.835 Compiled 3 classes in 2,37 seconds
+[INFO] 14:06:49.319 Linking 1045 classes (ios x86_64 release)
+[INFO] 14:06:49.360 7888 methods out of 11089 included in the executable
+[INFO] 14:06:49.932 Building framework binary /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86_64/frmwk_bitcodetest_20201124
+[INFO] 14:06:49.936 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -o /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86_64/frmwk_bitcodetest_20201124 -arch x86_64 -Wl,-filelist,/var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86_64/objects0 -w -stdlib=libc++ -mios-simulator-version-min=8.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk -dynamiclib -single_module -compatibility_version 1 -current_version 1 -install_name @rpath/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124 -L /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/x86_64 -ObjC -exported_symbols_list /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86_64/exported_symbols -Wl,-no_implicit_dylibs -Wl,-dead_strip -fPIC -lrobovm-frameworksupport -lrobovm-bc -force_load /Users/ecsec/.robovm-sdks/robovm-2.3.11/lib/vm/ios/x86_64/librobovm-rt.a -lrobovm-core -lgc -lpthread -ldl -lm -lz -liconv -lsqlite3 -framework Foundation -framework MobileCoreServices
+[INFO] 14:06:51.352 Linked 1045 classes in 2,52 seconds
+[INFO] 14:06:51.358 Building fat binary for archs [x86, x86_64, thumbv7, arm64]
+[INFO] 14:06:51.358 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86/frmwk_bitcodetest_20201124 /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/x86_64/frmwk_bitcodetest_20201124 /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/thumbv7/frmwk_bitcodetest_20201124 /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/arm64/frmwk_bitcodetest_20201124 -create -output /var/folders/5v/r5693gyx7lv1mh9q4fzng2w80000gq/T/robovm4239798405435529525.tmp/frmwk_bitcodetest_20201124
+[INFO] 14:06:52.415 Installing framework binary to /Users/ecsec/bitcodeTest_20201124_mvn
+[INFO] 14:06:52.416 Creating framework: /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework
+[INFO] 14:06:53.915 Creating stripped archive file /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124.bundle/Resources/lib/boot/robovm-rt.jar
+[INFO] 14:06:54.019 Creating stripped archive file /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124.bundle/Resources/lib/classes0.jar
+[INFO] 14:06:54.021 Creating stripped archive file /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124.bundle/Resources/lib/robovm-objc.jar
+[INFO] 14:06:54.023 Creating stripped archive file /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124.bundle/Resources/lib/robovm-cocoatouch.jar
+[INFO] 14:06:54.049 Copying resource /Users/ecsec/IdeaProjects/frmwk_bitcodetest_20201124/headers/frmwk_bitcodetest_20201124.h to /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124.bundle/Resources/../../Headers
+[INFO] 14:06:54.051 Copying resource /Users/ecsec/IdeaProjects/frmwk_bitcodetest_20201124/modules/module.modulemap to /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124.bundle/Resources/../../Modules
+[INFO] 14:06:54.052 Creating framework symbol directory: /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.dSYM
+[INFO] 14:06:54.053 xcrun dsymutil -o /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.dSYM /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124
+[INFO] 14:06:59.281 Striping framework binary: /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124
+[INFO] 14:06:59.282 xcrun strip -x /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/frmwk_bitcodetest_20201124
+[INFO] 14:07:02.062 Installing Info.plist to: /Users/ecsec/bitcodeTest_20201124_mvn/frmwk_bitcodetest_20201124.framework/Info.plist
+[INFO] 14:07:02.064 Framework successfully created in /Users/ecsec/bitcodeTest_20201124_mvn
+[INFO] 14:07:03.247 Framework creation complete, 0 errors, 0 warnings
+
